@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aroma & Grão - Cafeteria Premium</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- ============================================ -->
+    <!-- NAVBAR FIXA                                  -->
+    <!-- ============================================ -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">
+                <span class="logo-icon">☕</span>
+                <span class="logo-text">Aroma & Grão</span>
+            </a>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#hero" class="nav-link">Início</a></li>
+                <li><a href="#sobre" class="nav-link">Sobre</a></li>
+                <li><a href="#cardapio" class="nav-link">Cardápio</a></li>
+                <li><a href="#diferenciais" class="nav-link">Diferenciais</a></li>
+                <li><a href="#depoimentos" class="nav-link">Depoimentos</a></li>
+                <li><a href="#contato" class="nav-link">Contato</a></li>
+            </ul>
+            <div class="nav-toggle" id="navToggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ============================================ -->
+    <!-- HERO SECTION                                 -->
+    <!-- ============================================ -->
+    <section class="hero" id="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <p class="hero-subtitle">Experiência Premium em Cada Xícara</p>
+            <h1 class="hero-title">Aroma & Grão</h1>
+            <p class="hero-description">
+                Onde a arte do café encontra a sofisticação. <br>
+                Grãos selecionados, ambiente acolhedor e momentos inesquecíveis.
+            </p>
+            <a href="#cardapio" class="hero-btn">Ver Cardápio</a>
+        </div>
+        <div class="hero-scroll">
+            <span class="scroll-text">Rolar</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- SOBRE A CAFETERIA                            -->
+    <!-- ============================================ -->
+    <section class="sobre" id="sobre">
+        <div class="container">
+            <div class="sobre-grid">
+                <div class="sobre-imagem">
+                    <div class="sobre-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=600&h=700&fit=crop" alt="Interior da cafeteria" loading="lazy">
+                        <div class="sobre-img-badge">
+                            <span class="badge-ano">Desde</span>
+                            <span class="badge-num">2018</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="sobre-conteudo">
+                    <span class="section-tag">Nossa História</span>
+                    <h2 class="section-title">Mais que Café,<br>Uma Experiência</h2>
+                    <p class="sobre-texto">
+                        Fundada em 2018, a <strong>Aroma & Grão</strong> nasceu da paixão por cafés especiais e do desejo de criar um espaço onde cada xícara conta uma história. Selecionamos grãos das melhores fazendas do Brasil e do mundo, torrados artesanalmente para extrair o melhor de cada origem.
+                    </p>
+                    <p class="sobre-texto">
+                        Nosso ambiente foi pensado para ser um refúgio urbano — onde o aroma do café fresco se mistura com conversas inspiradoras, trabalho criativo e momentos de tranquilidade. Cada detalhe, desde a iluminação até a música de fundo, foi cuidadosamente escolhido para proporcionar uma experiência sensorial completa.
+                    </p>
+                    <div class="sobre-stats">
+                        <div class="stat-item">
+                            <span class="stat-num">6+</span>
+                            <span class="stat-label">Anos de Experiência</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-num">15K+</span>
+                            <span class="stat-label">Clientes Felizes</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-num">12</span>
+                            <span class="stat-label">Variedades de Grãos</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- CARDÁPIO                                     -->
+    <!-- ============================================ -->
+    <section class="cardapio" id="cardapio">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Nosso Cardápio</span>
+                <h2 class="section-title">Sabores que Encantam</h2>
+                <p class="section-desc">Cada bebida é preparada com grãos premium e técnica artesanal</p>
+            </div>
+            <div class="cardapio-grid">
+                <!-- Espresso -->
+                <div class="card-produto">
+                    <div class="card-img">
+                        <img src="https://images.unsplash.com/photo-1510707577719-ae7c14805e3a?w=400&h=300&fit=crop" alt="Espresso" loading="lazy">
+                        <div class="card-badge">Mais Pedido</div>
+                    </div>
+                    <div class="card-info">
+                        <h3 class="card-nome">Espresso</h3>
+                        <p class="card-desc">Café intenso e encorpado, extraído na pressão perfeita. Notas de chocolate amargo e caramelo.</p>
+                        <div class="card-footer">
+                            <span class="card-preco">R$ 8,50</span>
+                            <button class="card-btn">Pedir</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Cappuccino -->
+                <div class="card-produto">
+                    <div class="card-img">
+                        <img src="https://images.unsplash.com/photo-1572442388796-11668a67e53d?w=400&h=300&fit=crop" alt="Cappuccino" loading="lazy">
+                    </div>
+                    <div class="card-info">
+                        <h3 class="card-nome">Cappuccino</h3>
+                        <p class="card-desc">Equilíbrio perfeito entre espresso, leite vaporizado e espuma cremosa. Finalizado com cacau.</p>
+                        <div class="card-footer">
+                            <span class="card-preco">R$ 12,90</span>
+                            <button class="card-btn">Pedir</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Latte -->
+                <div class="card-produto">
+                    <div class="card-img">
+                        <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=400&h=300&fit=crop" alt="Latte" loading="lazy">
+                    </div>
+                    <div class="card-info">
+                        <h3 class="card-nome">Latte</h3>
+                        <p class="card-desc">Espresso suave envolvido em leite cremoso. Arte latte personalizada em cada xícara.</p>
+                        <div class="card-footer">
+                            <span class="card-preco">R$ 14,50</span>
+                            <button class="card-btn">Pedir</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Mocha -->
+                <div class="card-produto">
+                    <div class="card-img">
+                        <img src="https://images.unsplash.com/photo-1578314675249-a6910f80cc4e?w=400&h=300&fit=crop" alt="Mocha" loading="lazy">
+                        <div class="card-badge">Novo</div>
+                    </div>
+                    <div class="card-info">
+                        <h3 class="card-nome">Mocha</h3>
+                        <p class="card-desc">Fusão irresistível de espresso, chocolate belga e leite vaporizado. Cobertura de chantilly.</p>
+                        <div class="card-footer">
+                            <span class="card-preco">R$ 16,90</span>
+                            <button class="card-btn">Pedir</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Croissant -->
+                <div class="card-produto">
+                    <div class="card-img">
+                        <img src="https://guiadacozinha.com.br/wp-content/uploads/2012/01/croissant-de-chocolate.jpg" alt="Croissant" loading="lazy">
+                    </div>
+                    <div class="card-info">
+                        <h3 class="card-nome">Croissant Artesanal</h3>
+                        <p class="card-desc">Massa folhada francesa, manteiga importada e fermentação natural. Crocante por fora, macio por dentro.</p>
+                        <div class="card-footer">
+                            <span class="card-preco">R$ 10,50</span>
+                            <button class="card-btn">Pedir</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Cheesecake -->
+                <div class="card-produto">
+                    <div class="card-img">
+                        <img src="https://images.unsplash.com/photo-1524351199678-941a58a3df50?w=400&h=300&fit=crop" alt="Cheesecake" loading="lazy">
+                    </div>
+                    <div class="card-info">
+                        <h3 class="card-nome">Cheesecake de Frutas</h3>
+                        <p class="card-desc">Cremoso cheesecake de cream cheese com calda de frutas vermelhas frescas e base de biscoito.</p>
+                        <div class="card-footer">
+                            <span class="card-preco">R$ 18,90</span>
+                            <button class="card-btn">Pedir</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- DIFERENCIAIS                                 -->
+    <!-- ============================================ -->
+    <section class="diferenciais" id="diferenciais">
+        <div class="container">
+            <div class="section-header light">
+                <span class="section-tag">Por que nos Escolher</span>
+                <h2 class="section-title">Nossos Diferenciais</h2>
+                <p class="section-desc">Detalhes que fazem toda a diferença na sua experiência</p>
+            </div>
+            <div class="diferenciais-grid">
+                <div class="dif-card">
+                    <div class="dif-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"/>
+                            <path d="M8 12l2 2 4-4"/>
+                        </svg>
+                    </div>
+                    <h3 class="dif-titulo">Grãos Selecionados</h3>
+                    <p class="dif-desc">Trabalhamos apenas com grãos de origem única, classificados como especiais (SCA 80+), torrados semanalmente para garantir frescor máximo.</p>
+                </div>
+                <div class="dif-card">
+                    <div class="dif-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/>
+                            <path d="M9 22V12h6v10"/>
+                        </svg>
+                    </div>
+                    <h3 class="dif-titulo">Ambiente Aconchegante</h3>
+                    <p class="dif-desc">Design interior pensado para o conforto, com iluminação natural, poltronas ergonômicas e uma atmosfera que convida a ficar.</p>
+                </div>
+                <div class="dif-card">
+                    <div class="dif-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M5 12.55a11 11 0 0114.08 0"/>
+                            <path d="M1.42 9a16 16 0 0121.16 0"/>
+                            <path d="M8.53 16.11a6 6 0 016.95 0"/>
+                            <circle cx="12" cy="20" r="1"/>
+                        </svg>
+                    </div>
+                    <h3 class="dif-titulo">Wi-Fi Grátis</h3>
+                    <p class="dif-desc">Conexão de alta velocidade em toda a cafeteria, com tomadas em cada mesa. O lugar perfeito para trabalhar ou estudar.</p>
+                </div>
+                <div class="dif-card">
+                    <div class="dif-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/>
+                        </svg>
+                    </div>
+                    <h3 class="dif-titulo">Atendimento Premium</h3>
+                    <p class="dif-desc">Nossa equipe é treinada para entender seu paladar e recomendar a bebida perfeita. Cada visita é uma experiência personalizada.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- DEPOIMENTOS                                  -->
+    <!-- ============================================ -->
+    <section class="depoimentos" id="depoimentos">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Depoimentos</span>
+                <h2 class="section-title">O que Nossos Clientes Dizem</h2>
+                <p class="section-desc">Histórias reais de quem vive a experiência Aroma & Grão</p>
+            </div>
+            <div class="depoimentos-grid">
+                <div class="depo-card">
+                    <div class="depo-estrelas">★★★★★</div>
+                    <p class="depo-texto">"O melhor cappuccino da cidade! O ambiente é incrível para trabalhar e a equipe sempre me recebe pelo nome. Virou meu escritório favorito."</p>
+                    <div class="depo-autor">
+                        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=80&h=80&fit=crop&crop=face" alt="Mariana" loading="lazy">
+                        <div class="depo-info">
+                            <span class="depo-nome">Mariana Costa</span>
+                            <span class="depo-cargo">Designer Freelancer</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="depo-card destaque">
+                    <div class="depo-estrelas">★★★★★</div>
+                    <p class="depo-texto">"Sou apaixonado por café especial e posso dizer: os grãos da Aroma & Grão estão no nível das melhores cafeterias de São Paulo. A torra é impecável."</p>
+                    <div class="depo-autor">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=80&h=80&fit=crop&crop=face" alt="Ricardo" loading="lazy">
+                        <div class="depo-info">
+                            <span class="depo-nome">Ricardo Mendes</span>
+                            <span class="depo-cargo">Barista & Consultor</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="depo-card">
+                    <div class="depo-estrelas">★★★★★</div>
+                    <p class="depo-texto">"Levo minha família todos os domingos para o brunch. O croissant é divino e o cheesecake de frutas vermelhas é simplesmente viciante!"</p>
+                    <div class="depo-autor">
+                        <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=80&h=80&fit=crop&crop=face" alt="Fernanda" loading="lazy">
+                        <div class="depo-info">
+                            <span class="depo-nome">Fernanda Lima</span>
+                            <span class="depo-cargo">Mãe e Empreendedora</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- CONTATO                                      -->
+    <!-- ============================================ -->
+    <section class="contato" id="contato">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Contato</span>
+                <h2 class="section-title">Visite-nos</h2>
+                <p class="section-desc">Estamos esperando por você com um café fresco</p>
+            </div>
+            <div class="contato-grid">
+                <div class="contato-info">
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
+                                <circle cx="12" cy="10" r="3"/>
+                            </svg>
+                        </div>
+                        <div class="info-texto">
+                            <h4>Endereço</h4>
+                            <p>Samambaia Sul, 123<br>Boulervard, Brasilia - DF<br>CEP: 01415-000</p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/>
+                            </svg>
+                        </div>
+                        <div class="info-texto">
+                            <h4>Telefone</h4>
+                            <p>(61) 9241-2437<br>(11) 98765-4321 (WhatsApp)</p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <circle cx="12" cy="12" r="10"/>
+                                <path d="M12 6v6l4 2"/>
+                            </svg>
+                        </div>
+                        <div class="info-texto">
+                            <h4>Horário de Funcionamento</h4>
+                            <p><strong>Segunda a Sexta:</strong> 07h às 21h<br><strong>Sábado:</strong> 08h às 22h<br><strong>Domingo:</strong> 08h às 20h</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contato-form-wrapper">
+                    <form class="contato-form" action="#" method="POST">
+                        <h3 class="form-titulo">Envie uma Mensagem</h3>
+                        <div class="form-grupo">
+                            <input type="text" id="nome" name="nome" placeholder=" " required>
+                            <label for="nome">Seu Nome</label>
+                        </div>
+                        <div class="form-grupo">
+                            <input type="email" id="email" name="email" placeholder=" " required>
+                            <label for="email">Seu E-mail</label>
+                        </div>
+                        <div class="form-grupo">
+                            <input type="tel" id="telefone" name="telefone" placeholder=" ">
+                            <label for="telefone">Telefone (opcional)</label>
+                        </div>
+                        <div class="form-grupo">
+                            <textarea id="mensagem" name="mensagem" rows="4" placeholder=" " required></textarea>
+                            <label for="mensagem">Sua Mensagem</label>
+                        </div>
+                        <button type="submit" class="form-btn">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- FOOTER                                       -->
+    <!-- ============================================ -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#hero" class="footer-logo">
+                        <span class="logo-icon">☕</span>
+                        <span class="logo-text">Aroma & Grão</span>
+                    </a>
+                    <p class="footer-desc">Cafeteria premium dedicada a proporcionar experiências sensoriais únicas através de grãos selecionados e atendimento de excelência.</p>
+                    <div class="footer-social">
+                        <a href="#" class="social-link" aria-label="Instagram">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="2" y="2" width="20" height="20" rx="5"/>
+                                <circle cx="12" cy="12" r="5"/>
+                                <circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Facebook">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Twitter">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M23 3a10.9 10.9 0 01-3.14 1.53A4.48 4.48 0 0012 8v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="#hero">Início</a></li>
+                        <li><a href="#sobre">Sobre Nós</a></li>
+                        <li><a href="#cardapio">Cardápio</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Serviços</h4>
+                    <ul>
+                        <li><a href="#">Café para Eventos</a></li>
+                        <li><a href="#">Venda de Grãos</a></li>
+                        <li><a href="#">Cursos de Barista</a></li>
+                        <li><a href="#">Franquias</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h4>Newsletter</h4>
+                    <p>Receba novidades e promoções exclusivas.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Seu e-mail">
+                        <button type="submit">→</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Aroma & Grão. Todos os direitos reservados.</p>
+                <p>Desenvolvido pelo aluno Iago Augusto Alves Leite.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ============================================ -->
+    <!-- SCRIPTS                                      -->
+    <!-- ============================================ -->
+    <script>
+        // Menu mobile toggle
+        const navToggle = document.getElementById('navToggle');
+        const navMenu = document.getElementById('navMenu');
+        
+        navToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+            navToggle.classList.toggle('active');
+        });
+
+        // Fechar menu ao clicar em um link
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', () => {
+                navMenu.classList.remove('active');
+                navToggle.classList.remove('active');
+            });
+        });
+
+        // Navbar scroll effect
+        const navbar = document.getElementById('navbar');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        // Scroll suave
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
